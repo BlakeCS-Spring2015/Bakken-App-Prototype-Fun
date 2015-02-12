@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>92BCD085-D04E-420B-A540-0F4C6D07FCE8</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Bakken App Prototype Fun</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>AC1ECF9E4DBFA0DA406BC8D94D1AA8AA9A6CE157</key>
+		<string>https://github.com/BlakeCS-Spring2015/Bakken-App-Prototype-Fun.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Bakken App Prototype Fun.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>AC1ECF9E4DBFA0DA406BC8D94D1AA8AA9A6CE157</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/BlakeCS-Spring2015/Bakken-App-Prototype-Fun.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>AC1ECF9E4DBFA0DA406BC8D94D1AA8AA9A6CE157</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>AC1ECF9E4DBFA0DA406BC8D94D1AA8AA9A6CE157</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Bakken%20App%20Prototype%20Fun</string>
+		</dict>
+	</array>
+</dict>
+</plist>
