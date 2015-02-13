@@ -7,9 +7,12 @@
 //
 
 #import "ObjectsViewController.h"
-#import "Thing.h" 
+#import "Artifact.h" 
 
 @interface ObjectsViewController ()
+@property (weak, nonatomic) IBOutlet UILabel *name;
+@property (weak, nonatomic) IBOutlet UILabel *date;
+@property (weak, nonatomic) IBOutlet UILabel *info;
 
 @end
 
@@ -18,6 +21,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.name.text = self.currentA.name;
+    self.date.text = self.currentA.date;
+    self.info.text = self.currentA.info; 
+    
 }
 
 - (void)didReceiveMemoryWarning {

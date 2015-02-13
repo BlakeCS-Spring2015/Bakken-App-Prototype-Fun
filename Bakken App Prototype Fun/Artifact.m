@@ -6,8 +6,8 @@
 //  Copyright (c) 2015 ajsmith15. All rights reserved.
 //
 
-#import "Thing.h"
+#import "Artifact.h"
 
-@implementation Thing
+@implementation Artifact
 
 @end

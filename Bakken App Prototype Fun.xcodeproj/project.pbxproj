@@ -9,15 +9,15 @@
 /* Begin PBXBuildFile section */
 		CA4DCB371A8D6C92000332A1 /* BakkenF.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CA4DCB361A8D6C92000332A1 /* BakkenF.jpg */; };
 		CA4DCB391A8D6CEA000332A1 /* Screen Shot 2015-02-12 at 17.20.55.png in Resources */ = {isa = PBXBuildFile; fileRef = CA4DCB381A8D6CEA000332A1 /* Screen Shot 2015-02-12 at 17.20.55.png */; };
+		CA54C2D11A8D8F000089C24E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA54C2D01A8D8F000089C24E /* Main.storyboard */; };
 		CACB13081A893F6500A69A72 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CACB13071A893F6500A69A72 /* main.m */; };
 		CACB130B1A893F6500A69A72 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CACB130A1A893F6500A69A72 /* AppDelegate.m */; };
-		CACB130E1A893F6500A69A72 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CACB130D1A893F6500A69A72 /* ViewController.m */; };
-		CACB13111A893F6500A69A72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CACB130F1A893F6500A69A72 /* Main.storyboard */; };
+		CACB130E1A893F6500A69A72 /* AVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CACB130D1A893F6500A69A72 /* AVC.m */; };
 		CACB13131A893F6500A69A72 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CACB13121A893F6500A69A72 /* Images.xcassets */; };
 		CACB13161A893F6500A69A72 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CACB13141A893F6500A69A72 /* LaunchScreen.xib */; };
 		CACB13221A893F6500A69A72 /* Bakken_App_Prototype_FunTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CACB13211A893F6500A69A72 /* Bakken_App_Prototype_FunTests.m */; };
 		CACB13621A8A7C1E00A69A72 /* ObjectsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CACB13611A8A7C1E00A69A72 /* ObjectsViewController.m */; };
-		CACB136B1A8A7E1200A69A72 /* Thing.m in Sources */ = {isa = PBXBuildFile; fileRef = CACB136A1A8A7E1200A69A72 /* Thing.m */; };
+		CACB136B1A8A7E1200A69A72 /* Artifact.m in Sources */ = {isa = PBXBuildFile; fileRef = CACB136A1A8A7E1200A69A72 /* Artifact.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,14 +33,14 @@
 /* Begin PBXFileReference section */
 		CA4DCB361A8D6C92000332A1 /* BakkenF.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BakkenF.jpg; sourceTree = "<group>"; };
 		CA4DCB381A8D6CEA000332A1 /* Screen Shot 2015-02-12 at 17.20.55.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2015-02-12 at 17.20.55.png"; sourceTree = "<group>"; };
+		CA54C2D01A8D8F000089C24E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Main.storyboard; sourceTree = "<group>"; };
 		CACB13021A893F6500A69A72 /* Bakken App Prototype Fun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bakken App Prototype Fun.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CACB13061A893F6500A69A72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CACB13071A893F6500A69A72 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CACB13091A893F6500A69A72 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CACB130A1A893F6500A69A72 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CACB130C1A893F6500A69A72 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CACB130D1A893F6500A69A72 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		CACB13101A893F6500A69A72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CACB130C1A893F6500A69A72 /* AVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVC.h; sourceTree = "<group>"; };
+		CACB130D1A893F6500A69A72 /* AVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVC.m; sourceTree = "<group>"; };
 		CACB13121A893F6500A69A72 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CACB13151A893F6500A69A72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		CACB131B1A893F6500A69A72 /* Bakken App Prototype FunTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bakken App Prototype FunTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,8 +48,8 @@
 		CACB13211A893F6500A69A72 /* Bakken_App_Prototype_FunTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bakken_App_Prototype_FunTests.m; sourceTree = "<group>"; };
 		CACB13601A8A7C1E00A69A72 /* ObjectsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ObjectsViewController.h; path = ../ObjectsViewController.h; sourceTree = "<group>"; };
 		CACB13611A8A7C1E00A69A72 /* ObjectsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ObjectsViewController.m; path = ../ObjectsViewController.m; sourceTree = "<group>"; };
-		CACB13691A8A7E1200A69A72 /* Thing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Thing.h; sourceTree = "<group>"; };
-		CACB136A1A8A7E1200A69A72 /* Thing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Thing.m; sourceTree = "<group>"; };
+		CACB13691A8A7E1200A69A72 /* Artifact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Artifact.h; sourceTree = "<group>"; };
+		CACB136A1A8A7E1200A69A72 /* Artifact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Artifact.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,13 +93,13 @@
 			children = (
 				CACB13091A893F6500A69A72 /* AppDelegate.h */,
 				CACB130A1A893F6500A69A72 /* AppDelegate.m */,
-				CACB130C1A893F6500A69A72 /* ViewController.h */,
-				CACB130D1A893F6500A69A72 /* ViewController.m */,
-				CACB13691A8A7E1200A69A72 /* Thing.h */,
-				CACB136A1A8A7E1200A69A72 /* Thing.m */,
+				CACB130C1A893F6500A69A72 /* AVC.h */,
+				CACB130D1A893F6500A69A72 /* AVC.m */,
+				CACB13691A8A7E1200A69A72 /* Artifact.h */,
+				CACB136A1A8A7E1200A69A72 /* Artifact.m */,
+				CA54C2D01A8D8F000089C24E /* Main.storyboard */,
 				CACB13601A8A7C1E00A69A72 /* ObjectsViewController.h */,
 				CACB13611A8A7C1E00A69A72 /* ObjectsViewController.m */,
-				CACB130F1A893F6500A69A72 /* Main.storyboard */,
 				CACB13121A893F6500A69A72 /* Images.xcassets */,
 				CACB13141A893F6500A69A72 /* LaunchScreen.xib */,
 				CACB13051A893F6500A69A72 /* Supporting Files */,
@@ -216,7 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA4DCB371A8D6C92000332A1 /* BakkenF.jpg in Resources */,
-				CACB13111A893F6500A69A72 /* Main.storyboard in Resources */,
+				CA54C2D11A8D8F000089C24E /* Main.storyboard in Resources */,
 				CACB13161A893F6500A69A72 /* LaunchScreen.xib in Resources */,
 				CA4DCB391A8D6CEA000332A1 /* Screen Shot 2015-02-12 at 17.20.55.png in Resources */,
 				CACB13131A893F6500A69A72 /* Images.xcassets in Resources */,
@@ -237,10 +237,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CACB130E1A893F6500A69A72 /* ViewController.m in Sources */,
+				CACB130E1A893F6500A69A72 /* AVC.m in Sources */,
 				CACB130B1A893F6500A69A72 /* AppDelegate.m in Sources */,
 				CACB13081A893F6500A69A72 /* main.m in Sources */,
-				CACB136B1A8A7E1200A69A72 /* Thing.m in Sources */,
+				CACB136B1A8A7E1200A69A72 /* Artifact.m in Sources */,
 				CACB13621A8A7C1E00A69A72 /* ObjectsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,14 +264,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		CACB130F1A893F6500A69A72 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CACB13101A893F6500A69A72 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CACB13141A893F6500A69A72 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (

@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Thing : NSObject
+@interface Artifact : NSObject
 
 @property (strong, nonatomic) NSString *name;
 @property (strong, nonatomic) NSString *date;

@@ -4,10 +4,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--AVC-->
         <scene sceneID="QCj-R3-ROO">
             <objects>
-                <viewController id="ja4-or-sMv" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="ja4-or-sMv" customClass="AVC" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="BQ1-Gq-5wm"/>
                         <viewControllerLayoutGuide type="bottom" id="cWi-BH-lD6"/>
@@ -26,7 +26,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Yx7-BK-mlu" kind="modal" id="kEM-3E-z0h"/>
+                                    <segue destination="Yx7-BK-mlu" kind="modal" id="ZoY-w7-oXf"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -48,15 +48,40 @@
                     <view key="view" contentMode="scaleToFill" id="uF9-fl-xea">
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wdL-Dc-dmu">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="44"/>
+                                <items>
+                                    <navigationItem title="Artifacts" id="xMX-3v-crI">
+                                        <barButtonItem key="rightBarButtonItem" title="Forwards" id="Efc-HJ-mRM">
+                                            <connections>
+                                                <segue destination="JFU-UF-7p7" kind="push" id="mLC-p0-Fjp"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="RYb-0b-LDF"/>
+                    <navigationItem key="navigationItem" id="RYb-0b-LDF">
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="W2H-Tx-4Ng">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="p1J-mh-bqZ">
+                                <rect key="frame" x="-23" y="-15" width="170" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Forwards">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vrW-dl-tUA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4641.2799999999997" y="651.94666666666672"/>
+            <point key="canvasLocation" x="4527" y="658"/>
         </scene>
-        <!--View Controller-->
+        <!--Artifact Information-->
         <scene sceneID="4n3-B5-qsM">
             <objects>
                 <viewController id="JFU-UF-7p7" sceneMemberID="viewController">
@@ -67,12 +92,29 @@
                     <view key="view" contentMode="scaleToFill" id="uqd-mG-3Nh">
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="efP-Ww-5S2">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="44"/>
+                                <items>
+                                    <navigationItem title="Further Information" id="Mxp-oT-nFE">
+                                        <barButtonItem key="leftBarButtonItem" title="Backwards" id="9Re-gr-u2H">
+                                            <connections>
+                                                <segue destination="Yx7-BK-mlu" kind="push" id="rqh-jF-0Gu"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Artifact Information" id="30u-XF-2xS">
+                        <barButtonItem key="leftBarButtonItem" title="Backwards" id="5HM-Ve-Xvz"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JgP-fp-CsK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5596.1599999999999" y="658.77333333333343"/>
+            <point key="canvasLocation" x="5540" y="658"/>
         </scene>
     </scenes>
     <resources>
@@ -83,4 +125,7 @@
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="ZoY-w7-oXf"/>
+    </inferredMetricsTieBreakers>
 </document>

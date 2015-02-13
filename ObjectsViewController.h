@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Artifact.h"
 
 @interface ObjectsViewController : UIViewController
-
+@property (strong, nonatomic) Artifact *currentA;
 @end
