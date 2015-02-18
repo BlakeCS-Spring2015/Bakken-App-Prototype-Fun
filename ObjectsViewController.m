@@ -13,6 +13,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *name;
 @property (weak, nonatomic) IBOutlet UILabel *date;
 @property (weak, nonatomic) IBOutlet UILabel *info;
+//@property (weak, nonatomic) IBOutlet UIImageView *image;
 
 @end
 
@@ -23,7 +24,7 @@
     // Do any additional setup after loading the view.
     self.name.text = self.currentA.name;
     self.date.text = self.currentA.date;
-    self.info.text = self.currentA.info; 
+    self.info.text = self.currentA.info;
     
 }
 

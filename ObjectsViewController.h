@@ -11,4 +11,8 @@
 
 @interface ObjectsViewController : UIViewController
 @property (strong, nonatomic) Artifact *currentA;
+@property (weak, nonatomic) IBOutlet UIImageView *IV;
+
+@property (weak, nonatomic) IBOutlet UIImageView *image;
+
 @end

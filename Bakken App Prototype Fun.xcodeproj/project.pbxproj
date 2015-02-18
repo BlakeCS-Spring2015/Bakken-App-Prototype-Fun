@@ -10,6 +10,7 @@
 		CA4DCB371A8D6C92000332A1 /* BakkenF.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CA4DCB361A8D6C92000332A1 /* BakkenF.jpg */; };
 		CA4DCB391A8D6CEA000332A1 /* Screen Shot 2015-02-12 at 17.20.55.png in Resources */ = {isa = PBXBuildFile; fileRef = CA4DCB381A8D6CEA000332A1 /* Screen Shot 2015-02-12 at 17.20.55.png */; };
 		CA54C2D11A8D8F000089C24E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA54C2D01A8D8F000089C24E /* Main.storyboard */; };
+		CAC876911A90299700DF9399 /* AppBackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CAC876901A90299700DF9399 /* AppBackground.jpg */; };
 		CACB13081A893F6500A69A72 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CACB13071A893F6500A69A72 /* main.m */; };
 		CACB130B1A893F6500A69A72 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CACB130A1A893F6500A69A72 /* AppDelegate.m */; };
 		CACB130E1A893F6500A69A72 /* AVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CACB130D1A893F6500A69A72 /* AVC.m */; };
@@ -34,6 +35,7 @@
 		CA4DCB361A8D6C92000332A1 /* BakkenF.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BakkenF.jpg; sourceTree = "<group>"; };
 		CA4DCB381A8D6CEA000332A1 /* Screen Shot 2015-02-12 at 17.20.55.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2015-02-12 at 17.20.55.png"; sourceTree = "<group>"; };
 		CA54C2D01A8D8F000089C24E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Main.storyboard; sourceTree = "<group>"; };
+		CAC876901A90299700DF9399 /* AppBackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AppBackground.jpg; sourceTree = "<group>"; };
 		CACB13021A893F6500A69A72 /* Bakken App Prototype Fun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bakken App Prototype Fun.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CACB13061A893F6500A69A72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CACB13071A893F6500A69A72 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 		CACB13051A893F6500A69A72 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CAC876901A90299700DF9399 /* AppBackground.jpg */,
 				CACB13061A893F6500A69A72 /* Info.plist */,
 				CA4DCB361A8D6C92000332A1 /* BakkenF.jpg */,
 				CA4DCB381A8D6CEA000332A1 /* Screen Shot 2015-02-12 at 17.20.55.png */,
@@ -220,6 +223,7 @@
 				CACB13161A893F6500A69A72 /* LaunchScreen.xib in Resources */,
 				CA4DCB391A8D6CEA000332A1 /* Screen Shot 2015-02-12 at 17.20.55.png in Resources */,
 				CACB13131A893F6500A69A72 /* Images.xcassets in Resources */,
+				CAC876911A90299700DF9399 /* AppBackground.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

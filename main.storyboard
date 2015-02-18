@@ -18,10 +18,12 @@
                         <subviews>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Y6R-9m-7Fc">
                                 <rect key="frame" x="0.0" y="0.0" width="768" height="44"/>
+                                <color key="barTintColor" red="0.050250509509999999" green="0.050250509509999999" blue="0.050250509509999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <items>
                                     <navigationItem title="Artifact Information" id="phv-K1-F2V">
                                         <barButtonItem key="backBarButtonItem" title="Back" id="BFO-Ic-f7x"/>
                                         <barButtonItem key="leftBarButtonItem" title="Backwards" id="y8o-1h-iTz">
+                                            <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                             <connections>
                                                 <segue destination="wag-G8-B4W" kind="modal" id="9Yh-vk-bJu"/>
                                             </connections>
@@ -30,27 +32,38 @@
                                 </items>
                             </navigationBar>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wx9-Vt-aKd">
-                                <rect key="frame" x="47" y="123" width="46" height="21"/>
+                                <rect key="frame" x="368" y="58" width="384" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Date" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="05j-QT-8fH">
-                                <rect key="frame" x="47" y="204" width="36" height="21"/>
+                                <rect key="frame" x="368" y="101" width="384" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Info" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wOi-CT-VtZ">
-                                <rect key="frame" x="47" y="287" width="29" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wOi-CT-VtZ">
+                                <rect key="frame" x="368" y="143" width="384" height="202"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Info">
+                                        <attributes>
+                                            <color key="NSColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="asd-6n-Aed">
+                                <rect key="frame" x="16" y="58" width="336" height="193"/>
+                            </imageView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.11926800271739135" green="0.060127115413855452" blue="0.016523447850421029" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <connections>
+                        <outlet property="IV" destination="asd-6n-Aed" id="lMJ-ii-m9f"/>
                         <outlet property="date" destination="05j-QT-8fH" id="Yqh-gQ-Yao"/>
                         <outlet property="info" destination="wOi-CT-VtZ" id="f3o-kK-Nxz"/>
                         <outlet property="name" destination="Wx9-Vt-aKd" id="YAS-et-H8n"/>
@@ -72,46 +85,54 @@
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2lY-iH-bXd">
-                                <rect key="frame" x="303" y="310" width="46" height="30"/>
-                                <state key="normal" title="Button">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="lwy-5M-moP" kind="modal" id="AcD-rq-1YO"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w8b-Ka-mIi">
-                                <rect key="frame" x="303" y="210" width="46" height="30"/>
-                                <state key="normal" title="Button">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="lwy-5M-moP" kind="modal" id="3X9-m3-I0U"/>
-                                </connections>
-                            </button>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Lml-QB-26w">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="44"/>
+                                <color key="barTintColor" red="0.050250509510869512" green="0.050250509510869512" blue="0.050250509510869512" alpha="1" colorSpace="calibratedRGB"/>
+                                <items>
+                                    <navigationItem title="Artifacts" id="H0w-9x-96E"/>
+                                </items>
+                            </navigationBar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="AppBackground.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="PbE-1v-8Sy">
+                                <rect key="frame" x="0.0" y="44" width="768" height="980"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lfj-m5-0AU">
-                                <rect key="frame" x="303" y="261" width="46" height="30"/>
-                                <state key="normal" title="Button">
+                                <rect key="frame" x="22" y="174" width="50" height="30"/>
+                                <state key="normal" title="Artifact">
+                                    <color key="titleColor" red="0.17686396060000001" green="0.089818251060000007" blue="0.02597903306" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <segue destination="lwy-5M-moP" kind="modal" id="bWk-ZY-Hhb"/>
                                 </connections>
                             </button>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Lml-QB-26w">
-                                <rect key="frame" x="0.0" y="0.0" width="768" height="44"/>
-                                <items>
-                                    <navigationItem title="Artifacts" id="H0w-9x-96E"/>
-                                </items>
-                            </navigationBar>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2lY-iH-bXd">
+                                <rect key="frame" x="473" y="174" width="50" height="30"/>
+                                <state key="normal" title="Artifact">
+                                    <color key="titleColor" red="0.17686396059782605" green="0.08981825105622028" blue="0.025979033057037023" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="lwy-5M-moP" kind="modal" id="AcD-rq-1YO"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tie-Hi-XdF">
-                                <rect key="frame" x="303" y="154" width="46" height="30"/>
-                                <state key="normal" title="Button">
+                                <rect key="frame" x="309" y="174" width="50" height="30"/>
+                                <state key="normal" title="Artifact">
+                                    <color key="titleColor" red="0.17686396060000001" green="0.089818251060000007" blue="0.02597903306" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <segue destination="lwy-5M-moP" kind="modal" id="InD-Ck-ERA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w8b-Ka-mIi">
+                                <rect key="frame" x="163" y="174" width="50" height="30"/>
+                                <state key="normal" title="Artifact">
+                                    <color key="titleColor" red="0.17686396060000001" green="0.089818251060000007" blue="0.02597903306" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="lwy-5M-moP" kind="modal" id="3X9-m3-I0U"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -165,6 +186,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="AppBackground.jpg" width="3000" height="3000"/>
         <image name="BakkenF.jpg" width="1740" height="2434"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
@@ -173,7 +195,7 @@
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="bWk-ZY-Hhb"/>
         <segue reference="9Yh-vk-bJu"/>
+        <segue reference="bWk-ZY-Hhb"/>
     </inferredMetricsTieBreakers>
 </document>

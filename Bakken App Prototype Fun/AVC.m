@@ -17,6 +17,7 @@
 @property (weak, nonatomic) IBOutlet UIButton *a3;
 @property (weak, nonatomic) IBOutlet UIButton *a4;
 @property (strong, nonatomic) NSArray *allArtifacts;
+@property (strong, nonatomic) NSArray *allImages;
 
 
 
@@ -28,14 +29,17 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
     Artifact *a1 = [[Artifact alloc] init];
     a1.name = @"Foo";
     a1.date = @"2000";
     a1.info = @"words!";
+    //a1.image = BakkenF.jpg
     Artifact *a2 = [[Artifact alloc] init];
     a2.name = @"Schmoo";
     a2.date = @"1990";
-    a2.info = @"more words!";
+    a2.info = @"more words! Let's see, I hope that this many words will eventually get this to the next line. Still going... Still going... ";
+    //Extend to next paragraph. Work on that. 
     Artifact *a3 = [[Artifact alloc] init];
     a3.name = @"Azi";
     a3.date = @"0000";
@@ -44,6 +48,12 @@
     a4.name = @"Pizza the hut";
     a4.date = @"3097";
     a4.info = @"um..... nope. Just nope.";
+    
+    //UIImage *image1 = [UIImage imageNamed:@"BakkenFjpg"];
+    //UIImage *image2 = [UIImage imageNamed:@"AppBackground.jpg"];
+    
+    //NSArray *iAll = @[image1, image2];
+    //self.allImages = iAll;
     
     NSArray *aA = @[a1, a2, a3, a4];
     self.allArtifacts = aA;
