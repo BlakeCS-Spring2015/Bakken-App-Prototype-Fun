@@ -13,6 +13,8 @@
 @property (strong, nonatomic) NSString *name;
 @property (strong, nonatomic) NSString *date;
 @property (strong, nonatomic) NSString *info;
-// Add property : Image View
+@property (strong, nonatomic) NSString *imageName;
+- (id)initWithDictionary:(NSDictionary *)aDictionary;
+
 
 @end

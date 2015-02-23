@@ -10,10 +10,11 @@
 		CA4DCB371A8D6C92000332A1 /* BakkenF.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CA4DCB361A8D6C92000332A1 /* BakkenF.jpg */; };
 		CA4DCB391A8D6CEA000332A1 /* Screen Shot 2015-02-12 at 17.20.55.png in Resources */ = {isa = PBXBuildFile; fileRef = CA4DCB381A8D6CEA000332A1 /* Screen Shot 2015-02-12 at 17.20.55.png */; };
 		CA54C2D11A8D8F000089C24E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA54C2D01A8D8F000089C24E /* Main.storyboard */; };
+		CABD9F971A9628250016861E /* ATableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CABD9F961A9628250016861E /* ATableViewController.m */; };
+		CABD9F991A962A580016861E /* Property.plist in Resources */ = {isa = PBXBuildFile; fileRef = CABD9F981A962A580016861E /* Property.plist */; };
 		CAC876911A90299700DF9399 /* AppBackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CAC876901A90299700DF9399 /* AppBackground.jpg */; };
 		CACB13081A893F6500A69A72 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CACB13071A893F6500A69A72 /* main.m */; };
 		CACB130B1A893F6500A69A72 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CACB130A1A893F6500A69A72 /* AppDelegate.m */; };
-		CACB130E1A893F6500A69A72 /* AVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CACB130D1A893F6500A69A72 /* AVC.m */; };
 		CACB13131A893F6500A69A72 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CACB13121A893F6500A69A72 /* Images.xcassets */; };
 		CACB13161A893F6500A69A72 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CACB13141A893F6500A69A72 /* LaunchScreen.xib */; };
 		CACB13221A893F6500A69A72 /* Bakken_App_Prototype_FunTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CACB13211A893F6500A69A72 /* Bakken_App_Prototype_FunTests.m */; };
@@ -35,14 +36,15 @@
 		CA4DCB361A8D6C92000332A1 /* BakkenF.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BakkenF.jpg; sourceTree = "<group>"; };
 		CA4DCB381A8D6CEA000332A1 /* Screen Shot 2015-02-12 at 17.20.55.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2015-02-12 at 17.20.55.png"; sourceTree = "<group>"; };
 		CA54C2D01A8D8F000089C24E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Main.storyboard; sourceTree = "<group>"; };
+		CABD9F951A9628250016861E /* ATableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATableViewController.h; sourceTree = "<group>"; };
+		CABD9F961A9628250016861E /* ATableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATableViewController.m; sourceTree = "<group>"; };
+		CABD9F981A962A580016861E /* Property.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Property.plist; sourceTree = "<group>"; };
 		CAC876901A90299700DF9399 /* AppBackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AppBackground.jpg; sourceTree = "<group>"; };
 		CACB13021A893F6500A69A72 /* Bakken App Prototype Fun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bakken App Prototype Fun.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CACB13061A893F6500A69A72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CACB13071A893F6500A69A72 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CACB13091A893F6500A69A72 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CACB130A1A893F6500A69A72 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CACB130C1A893F6500A69A72 /* AVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVC.h; sourceTree = "<group>"; };
-		CACB130D1A893F6500A69A72 /* AVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVC.m; sourceTree = "<group>"; };
 		CACB13121A893F6500A69A72 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CACB13151A893F6500A69A72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		CACB131B1A893F6500A69A72 /* Bakken App Prototype FunTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bakken App Prototype FunTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,13 +97,13 @@
 			children = (
 				CACB13091A893F6500A69A72 /* AppDelegate.h */,
 				CACB130A1A893F6500A69A72 /* AppDelegate.m */,
-				CACB130C1A893F6500A69A72 /* AVC.h */,
-				CACB130D1A893F6500A69A72 /* AVC.m */,
 				CACB13691A8A7E1200A69A72 /* Artifact.h */,
 				CACB136A1A8A7E1200A69A72 /* Artifact.m */,
 				CA54C2D01A8D8F000089C24E /* Main.storyboard */,
 				CACB13601A8A7C1E00A69A72 /* ObjectsViewController.h */,
 				CACB13611A8A7C1E00A69A72 /* ObjectsViewController.m */,
+				CABD9F951A9628250016861E /* ATableViewController.h */,
+				CABD9F961A9628250016861E /* ATableViewController.m */,
 				CACB13121A893F6500A69A72 /* Images.xcassets */,
 				CACB13141A893F6500A69A72 /* LaunchScreen.xib */,
 				CACB13051A893F6500A69A72 /* Supporting Files */,
@@ -114,6 +116,7 @@
 			children = (
 				CAC876901A90299700DF9399 /* AppBackground.jpg */,
 				CACB13061A893F6500A69A72 /* Info.plist */,
+				CABD9F981A962A580016861E /* Property.plist */,
 				CA4DCB361A8D6C92000332A1 /* BakkenF.jpg */,
 				CA4DCB381A8D6CEA000332A1 /* Screen Shot 2015-02-12 at 17.20.55.png */,
 				CACB13071A893F6500A69A72 /* main.m */,
@@ -219,6 +222,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA4DCB371A8D6C92000332A1 /* BakkenF.jpg in Resources */,
+				CABD9F991A962A580016861E /* Property.plist in Resources */,
 				CA54C2D11A8D8F000089C24E /* Main.storyboard in Resources */,
 				CACB13161A893F6500A69A72 /* LaunchScreen.xib in Resources */,
 				CA4DCB391A8D6CEA000332A1 /* Screen Shot 2015-02-12 at 17.20.55.png in Resources */,
@@ -241,7 +245,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CACB130E1A893F6500A69A72 /* AVC.m in Sources */,
+				CABD9F971A9628250016861E /* ATableViewController.m in Sources */,
 				CACB130B1A893F6500A69A72 /* AppDelegate.m in Sources */,
 				CACB13081A893F6500A69A72 /* main.m in Sources */,
 				CACB136B1A8A7E1200A69A72 /* Artifact.m in Sources */,

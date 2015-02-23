@@ -10,4 +10,16 @@
 
 @implementation Artifact
 
+- (id)initWithDictionary:(NSDictionary *)aDictionary {
+    
+    self = [[Artifact alloc] init];
+    if (self) {
+        self.name = [aDictionary valueForKey:@"Name"];
+        self.date = [aDictionary valueForKey:@"Date"];
+        self.info = [aDictionary valueForKey:@"Info"];
+        self.imageName = [aDictionary valueForKey:@"Image_Name"]; 
+    }
+    return self;
+}
+
 @end
